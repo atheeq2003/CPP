@@ -1,4 +1,4 @@
-// Program: Use of function // Function: Used to reuse
+// Program: Use of function - Function: Used to reuse
 #include <iostream>
 int atheeq()
 {
