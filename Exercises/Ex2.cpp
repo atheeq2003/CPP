@@ -18,4 +18,5 @@ int main()
     std::cin >> mark3;
     total = mark1 + mark2 + mark3;
     std::cout << "Total= \n" << total;
+    return 0;
 }
