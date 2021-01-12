@@ -1,6 +1,6 @@
 // While Loop
 #include <iostream>
-using namespace std; // Use this to use cout and cin with using std
+using namespace std; // Use this to use cout and cin without using std
 int main()
 {
     int a = 10;
