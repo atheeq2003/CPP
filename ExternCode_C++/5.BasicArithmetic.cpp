@@ -8,4 +8,4 @@ int main()
     cout << a << endl;
     cout << b;
     return 0;
-}
+} 
