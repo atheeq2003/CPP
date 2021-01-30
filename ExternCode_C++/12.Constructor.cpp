@@ -1,9 +1,12 @@
-// Variables in Classes
+// Constructor
 #include<iostream>
 #include<string>
 using namespace std;
 class AtheeqsClass{
     public:
+        AtheeqsClass(string z){
+            setname(z);
+        }
         void setname(string x){
             name = x;
         }
@@ -14,7 +17,9 @@ class AtheeqsClass{
         string name;
 };
 int main(){
-    AtheeqsClass AtheeqsObject;
-    AtheeqsObject.setname("Atheequr Rahaman");
+    AtheeqsClass AtheeqsObject("Atheeq\n");
     cout << AtheeqsObject.getname();
+    AtheeqsClass AtheeqsObject2("Atheeq2");
+    cout << AtheeqsObject2.getname();
+    return 0;
 }
